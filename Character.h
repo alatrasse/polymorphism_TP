@@ -11,11 +11,11 @@ class Character{
   
   virtual std::string WhatAmI() const = 0;
   
-  void Accelerate();
+  virtual void Accelerate();
   void Break();
   
   
-  private:
+  protected:
   float speed_;
   static float max_speed_;
   
