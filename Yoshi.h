@@ -1,10 +1,11 @@
-#ifndef MARIO_H
-#define MARIO_H
+#ifndef YOSHI_H
+#define YOSHI_H
 #include <iostream>
-#include "Character.h"
+#include "Character.cpp"
 
-class Yosshi : public Character{
-
+class Yoshi : public Character{
+  public:
+  std::string WhatAmI() const override;
 
 };
 

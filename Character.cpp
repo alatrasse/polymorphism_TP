@@ -1,13 +1,17 @@
+#ifndef CHARACTER_CPP
+#define CHARACTER_CPP
+
 #include <iostream>
 #include "Character.h"
 
 float Character::max_speed_ = 10;
+
 Character::Character(){
   speed_=0.;
 }
 
 void Character::display(){
-  std::cout << "this character goes at " << speed_ << "km/h" << std::endl;
+  std::cout << "This character goes at " << speed_ << "km/h" << std::endl;
 
 }
 
@@ -29,3 +33,4 @@ void Character::Break(){
   }
 }
 
+#endif
