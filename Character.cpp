@@ -11,7 +11,7 @@ Character::Character(){
 }
 
 void Character::display(){
-  std::cout << "This character goes at " << speed_ << "km/h" << std::endl;
+  std::cout << WhatAmI() << " goes at " << speed_ << "km/h" << std::endl;
 
 }
 
