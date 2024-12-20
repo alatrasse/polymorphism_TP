@@ -9,6 +9,8 @@ class Character{
   auto speed() const {return speed_;} 
   void display();
   
+  virtual std::string WhatAmI() const = 0;
+  
   void Accelerate();
   void Break();
   
